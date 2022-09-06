@@ -31,7 +31,7 @@ body {
   border-radius: 1em;
   width: max-content;
   text-align: center;
-  
+
 }
 
 .title {
@@ -50,8 +50,13 @@ body {
     margin: 1em 0;
 }
 
+.image > img{
+    border-radius: 10px;
+}
+
 @media screen and (min-width: 375px) {
     .container {
         max-width: 330px;
     }
 }
+
